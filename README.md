@@ -14,7 +14,7 @@ The dataset used in this project is the Kaggle House Prices dataset, available h
 2. Boolean Handling: Converted any True/False values to 1/0 for modeling compatibility.
 
 ### Feature Engineering
-1. Created the following new features to improve predictive power:
+Created the following new features to improve predictive power:
 - total_rooms = bedrooms + bathrooms
 - area_per_room = area ÷ total_rooms
 - total_amenities = Sum of all binary amenity columns (mainroad, basement, airconditioning, etc.)
